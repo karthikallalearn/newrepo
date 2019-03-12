@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /var/lib/jenkins/workspace/ci-cd/target/*.war
     destination: /root/apache-tomcat-8.5.38/webapps
 
