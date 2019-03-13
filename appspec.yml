@@ -2,23 +2,5 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/
-hooks:
-  BeforeInstall:
-    - location: install_dependencies.sh
-      timeout: 300
-      runas: root
-  AfterInstall:
-    - location: change_permissions.sh
-      timeout: 300
-      runas: root
-  ApplicationStart:
-    - location: start_server.sh
-    - location: create_test_db.sh
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: stop_server.sh
-      timeout: 300
-      runas: root
+    destination: /root/apache-tomcat-8.5.38/webapps
 

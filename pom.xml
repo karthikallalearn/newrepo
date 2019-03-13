@@ -6,7 +6,11 @@
 
 	<groupId>sparkjava-hello-world</groupId>
 	<artifactId>sparkjava-hello-world</artifactId>
+<<<<<<< HEAD
 	<version>1.5</version>
+=======
+	<version>1.3</version>
+>>>>>>> 35807a34e00ee6c44b7f0d0b7f836c9e544c0a75
 	<packaging>war</packaging>
 
 	<dependencies>
