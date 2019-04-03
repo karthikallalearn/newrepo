@@ -21,6 +21,14 @@
 			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repositories>
+			<repository>
+				<id>nexus</id>
+				<url>http://18.191.147.225:8081/repository/maven-releas/</url>
+			</repository>
+		</repositories>
+	</distributionManagement>
 
 	<build>
 		<plugins>
