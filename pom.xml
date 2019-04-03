@@ -25,12 +25,12 @@
 	<repository>
     <id>nexus</id>
     <name>central</name>
-    <url>http://192.168.1.36:8081/repository/maven-repo/</url>
+    <url>http:18.191.147.225:8081/repository/maven-snapshots1234</url>
   </repository>
        <snapshotRepository>
          <id>nexus</id>
          <name>central</name>
-         <url>http:18.191.147.225:8081/repository/maven-snapshots1234//</url>
+         <url>http:18.191.147.225:8081/repository/maven-snapshots1234/</url>
        </snapshotRepository>
 	</distributionManagement>
 
