@@ -21,6 +21,13 @@
 			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
+	
+	
+	
+	</distributionManagement>
+	<properties>
+		<sonar_host_url>http://13.59.33.66:9000</sonar_host_url>
+		</properties>
 	<distributionManagement>
 	<repository>
     <id>nexus</id>
@@ -29,10 +36,6 @@
   </repository>
 	
       
-	</distributionManagement>
-	<properties>
-		<sonar_host_url>loaclhost:9000</sonar_host_url>
-		</properties>
 
 	<build>
 		<plugins>
