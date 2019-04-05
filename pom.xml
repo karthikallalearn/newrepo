@@ -24,7 +24,7 @@
 	
 	
 	
-	</distributionManagement>
+	
 	<properties>
 		<sonar_host_url>http://13.59.33.66:9000</sonar_host_url>
 		</properties>
@@ -34,6 +34,7 @@
     <name>hello</name>
     <url>http://18.191.147.225:8081/repository/maven-snapshots1234</url>
   </repository>
+		</distributionManagement>
 	
       
 
