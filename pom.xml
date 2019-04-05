@@ -30,6 +30,9 @@
 	
       
 	</distributionManagement>
+	<properties>
+		<sonar_host_url>loaclhost:9000</sonar_host_url>
+		</properties>
 
 	<build>
 		<plugins>
